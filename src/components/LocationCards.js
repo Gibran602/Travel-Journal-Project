@@ -10,7 +10,11 @@ export default function LocationCards(props) {
       </div>
       <div className="card--content">
         <p className="country--name">
-          <FontAwesomeIcon icon={faLocationDot} className="location-icon" />
+          <FontAwesomeIcon
+            icon={faLocationDot}
+            className="location-icon"
+            alt="location image"
+          />
           {props.item.location}
         </p>
         <h3 className="location--title">{props.item.title}</h3>

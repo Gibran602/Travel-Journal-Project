@@ -13,7 +13,7 @@ export default function LocationCards(props) {
           <FontAwesomeIcon
             icon={faLocationDot}
             className="location-icon"
-            alt="location image"
+            alt={props.item.title}
           />
           {props.item.location}
         </p>

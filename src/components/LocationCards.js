@@ -6,14 +6,18 @@ export default function LocationCards(props) {
   return (
     <div className="card">
       <div className="card-image-container">
-        <img src={props.item.imageUrl} className="card--image" />
+        <img
+          src={props.item.imageUrl}
+          className="card--image"
+          alt="location image from some country visited"
+        />
       </div>
       <div className="card--content">
         <p className="country--name">
           <FontAwesomeIcon
             icon={faLocationDot}
             className="location-icon"
-            alt={props.item.title}
+            alt="location icon"
           />
           {props.item.location}
         </p>

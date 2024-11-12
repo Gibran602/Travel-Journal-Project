@@ -22,6 +22,9 @@ header {
 }
 
 .header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 0.904rem;
   font-weight: 500;
   margin: 0;

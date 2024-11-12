@@ -32,7 +32,7 @@ header {
   font-size: 1.5rem;
 }
 
-/**/
+/*Main section*/
 
 main {
   height: 100vh;
@@ -65,19 +65,20 @@ main {
   height: 100%;
   border-radius: 0.313rem;
 }
-.card--content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 0.6rem;
-  width: 50%;
-}
+
 .card--image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center bottom;
   border-radius: 0.313rem;
+}
+.card--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0.6rem;
+  width: 50%;
 }
 .country--name {
   font-weight: 400;
@@ -108,4 +109,77 @@ main {
 .location--description,
 .location--dates {
   font-size: 0.64rem;
+}
+.map-link {
+  display: none;
+}
+
+/*Media queries*/
+
+@media screen and (min-width: 768px) {
+  /*header section*/
+  header {
+    height: 5rem;
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
+  .header-title {
+    font-size: 2.2rem;
+  }
+  .earth-icon {
+    font-size: 2.5rem;
+  }
+  /*main section*/
+  main {
+    padding: 4rem 0;
+  }
+
+  .card-image-container {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 0.313rem;
+  }
+  .card {
+    justify-content: center;
+    align-items: flex-start;
+    height: 24rem;
+    padding: 0;
+  }
+
+  .card--image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    border-radius: 0.313rem;
+  }
+  .card--content {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+  }
+  .country--name,
+  .location--dates,
+  .location--description,
+  .map-link {
+    font-size: 0.9rem;
+  }
+  .location-icon {
+    width: 0.8rem;
+  }
+  .map-link {
+    display: unset;
+    margin-left: 1rem;
+    color: #918e9b;
+    text-transform: lowercase;
+    text-transform: capitalize;
+  }
+  .map-link a {
+    color: #918e9b;
+  }
+  .location--title {
+    font-size: 2.5rem;
+  }
+  .location--description {
+    line-height: 1.1rem;
+  }
 }

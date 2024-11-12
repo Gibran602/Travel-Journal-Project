@@ -20,6 +20,11 @@ export default function LocationCards(props) {
             alt="location icon"
           />
           {props.item.location}
+          <span className="map-link">
+            <a href={props.item.googleMapsUrl} target="_blank">
+              View on Google Maps
+            </a>
+          </span>
         </p>
         <h3 className="location--title">{props.item.title}</h3>
         <p className="location--dates">

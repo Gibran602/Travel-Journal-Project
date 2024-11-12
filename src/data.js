@@ -3,7 +3,8 @@ const travelDestinations = [
     id: 1,
     title: "Cordoba",
     location: "Argentina",
-    googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/C%C3%B3rdoba,+C%C3%B3rdoba+Province,+Argentina/@-31.4127281,-64.2064892,7405m/data=!3m1!1e3!4m6!3m5!1s0x9432985f478f5b69:0xb0a24f9a5366b092!8m2!3d-31.4200833!4d-64.1887761!16zL20vMDFrMDNy?entry=ttu&g_ep=EgoyMDI0MTExMC4wIKXMDSoASAFQAw%3D%3D",
     startDate: "20 August, 2018",
     endDate: "8 Oct, 2018",
     description:
@@ -15,7 +16,8 @@ const travelDestinations = [
     id: 2,
     title: "Bogota",
     location: "Colombia",
-    googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/Monserrate/@4.6053737,-74.0561414,422m/data=!3m1!1e3!4m14!1m7!3m6!1s0x8e3f99bfd2a459a9:0x352a5134b65e607b!2sMonserrate!8m2!3d4.6056728!4d-74.0555255!16zL20vMDV4aDE0!3m5!1s0x8e3f99bfd2a459a9:0x352a5134b65e607b!8m2!3d4.6056728!4d-74.0555255!16zL20vMDV4aDE0?entry=ttu&g_ep=EgoyMDI0MTExMC4wIKXMDSoASAFQAw%3D%3D",
     startDate: "10 June, 2020",
     endDate: "24 July, 2020",
     description:
@@ -27,7 +29,8 @@ const travelDestinations = [
     id: 3,
     title: "Santiago",
     location: "Dominican Republic",
-    googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/Monumento+de+Santiago/@19.4509546,-70.6960555,509m/data=!3m1!1e3!4m14!1m7!3m6!1s0x8eb1cf1c2ae21153:0x8d57bc58c47367a8!2sMonumento+de+Santiago!8m2!3d19.4508915!4d-70.6947141!16s%2Fg%2F11tm_dhx17!3m5!1s0x8eb1cf1c2ae21153:0x8d57bc58c47367a8!8m2!3d19.4508915!4d-70.6947141!16s%2Fg%2F11tm_dhx17?entry=ttu&g_ep=EgoyMDI0MTExMC4wIKXMDSoASAFQAw%3D%3D",
     startDate: "12 Dec, 2023",
     endDate: "15 Jan, 2024",
     description:
